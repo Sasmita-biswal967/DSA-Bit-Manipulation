@@ -11,5 +11,9 @@ class Main {
         int l=4, r=7;
         int ans = findxor(l-1) ^ findxor(r);
         System.out.println(ans);
+
+        int n=8;
+        int answ=fndxor(n);
+        System.out.println(answ);
     }
 }
